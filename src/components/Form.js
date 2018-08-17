@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View,TextInput, TouchableOpacity} from 'react-native';
 
 export default class Form extends React.Component {
+
   render() {
     return (
       <View style={styles.container}>
@@ -10,8 +11,8 @@ export default class Form extends React.Component {
           placeholder="Password"
           placeholderTextColor="#ffffff"
           secureTextEntry={true} />
-       <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>{this.props.type}</Text>
+       <TouchableOpacity style={styles.button} >
+          <Text style={styles.buttonText}></Text>
        </TouchableOpacity>
       </View>
     );
