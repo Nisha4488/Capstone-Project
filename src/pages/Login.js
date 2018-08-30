@@ -66,7 +66,7 @@ async onPress(mutation){
     return (
       <Mutation mutation={LOGIN_USER}>
        {(mutation, { data }) => (
-       <ImageBackground style={{width: 380, height: '100%', position:'absolute',}} source={require('../images/background1.jpeg')} >
+       <ImageBackground style={{width: 380, height: '100%', }} source={require('../images/background1.jpeg')} >
        <View style={styles.container}>
         <Logo/>
         <Text style={{color:'red'}}>{this.state.message}</Text>
@@ -110,7 +110,7 @@ container: {
 },
 inputBox:{
   width:300,
-  backgroundColor:'#FB8C00',
+  backgroundColor:'#40C4FF',
   borderRadius:25,
   padding:10,
   paddingHorizontal:16,
@@ -119,7 +119,7 @@ inputBox:{
 },
 button:{
   width:300,
-  backgroundColor:'#E65100',
+  backgroundColor:'#0091EA',
   borderRadius:25,
   marginVertical:10,
   padding:10

@@ -6,12 +6,12 @@ export default class Logo extends React.Component {
     return (
       <View style={styles.container}>
         <Image
-          style={{width: 80, height: 150, marginHorizontal:20 }}
-          source={require('../images/CapitalD.png')}
+          style={{width: 150, height: 300, marginHorizontal:-5 }}
+          source={require('../images/nd.png')}
           />
         <Image
-          style={{width: 80, height: 150}}
-          source={require('../images/CapitalR.png')}
+          style={{width: 150, height: 300}}
+          source={require('../images/r.png')}
         />
       </View>
     );
@@ -22,8 +22,8 @@ const styles = StyleSheet.create({
   container: {
     flexGrow: 1,
     alignItems: 'center',
-    justifyContent: 'flex-end',
+    justifyContent: 'center',
     flexDirection:'row',
-    marginVertical:30,
-  },
+    marginVertical:10,
+    },
 });

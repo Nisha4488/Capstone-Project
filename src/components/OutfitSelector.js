@@ -87,7 +87,7 @@ return (
 const styles = StyleSheet.create({
 container:{
    flexGrow:1,
-   backgroundColor: '#EF6C00',
+   
    marginVertical:5,
    flexDirection: 'row'
 },
@@ -96,6 +96,7 @@ image:{
    width:70,
    borderRadius:35,
    marginHorizontal:20,
+
 },
 inner:{
     height:30,

@@ -84,7 +84,10 @@ export default class OutfitGallery extends React.Component {
              }
           </View>
           <View style={styles.feature}>
-             <View><Text  style={styles.content}>Occassion: {outfit.occassion.join(', ')}</Text></View>
+             <View style={{flexDirection:'row'}}>
+                <Text  style={{fontSize:18, fontWeight:'bold'}}>Occassion:</Text>
+                <Text  style={styles.content}> {outfit.occassion.join(', ')} </Text>
+             </View>
              <TouchableOpacity>
              <Link to={{
                     pathname: '/addoutfit',
@@ -115,7 +118,7 @@ export default class OutfitGallery extends React.Component {
 const styles = StyleSheet.create({
 container: {
       flexGrow:1,
-      backgroundColor: '#EF6C00',
+
       width:380,
       paddingTop: 15
     },
@@ -137,10 +140,9 @@ picture:{
       marginHorizontal:15
 },
  content:{
-      marginHorizontal:15,
+      marginHorizontal:10,
       alignItems:'flex-start',
-      fontSize:18,
-      fontWeight:'500',
-      width: 230
+      fontSize:16,
+      width: 150
   }
 })

@@ -13,7 +13,7 @@ import ModalDropdown from 'react-native-modal-dropdown';
 import Storage from '../utils/Storage'
 
 const optionsWeather =['Fall', 'Spring', 'Summer', 'Winter']
-const optionsColor =['Blue', 'Red', 'Green', 'Purple', 'Black', 'Orange', 'Yellow', 'Gold', 'Wine', 'Maroon', 'Pink', 'Coral']
+const optionsColor =['Blue', 'Red', 'Green', 'Purple', 'Black', 'Orange', 'Yellow', 'Gold', 'Wine', 'Maroon', 'Pink', 'Coral', 'Gold', 'White', 'Silver']
 const optionsType = ['Top', 'Bottom', 'Accessories', 'Dress', 'Footwear']
 
 const SAVE_CLOTH= gql`
@@ -85,15 +85,15 @@ changeWeather= (idx, value) => {
         <View><Text style={styles.header}>Review Details</Text></View>
         <View style={styles.feature}>
           <View> <Text style={styles.content}>Type:</Text> </View>
-          <ModalDropdown options={optionsType}  dropdownStyle={{ height: 35 * optionsType.length, width:150, }}  onSelect={this.changeType} value={this.state.type}/>
+          <ModalDropdown options={optionsType}  dropdownStyle={{ height: 35 * optionsType.length, width:100, }}  onSelect={this.changeType} value={this.state.type}/>
           </View>
         <View style={styles.feature}>
          <View><Text style={styles.content}>Color:</Text></View>
-         <ModalDropdown options={optionsColor}  dropdownStyle={{ height: 35 * optionsColor.length }}  onSelect={this.changeColor} value={this.state.color}/>
+         <ModalDropdown options={optionsColor}  dropdownStyle={{ height: 35 * optionsColor.length, width:100 }}  onSelect={this.changeColor} value={this.state.color}/>
       </View>
       <View style={styles.feature}>
           <View><Text style={styles.content}>Weather:</Text></View>
-          <ModalDropdown options={optionsWeather}  dropdownStyle={{ height: 35 * optionsWeather.length }}  onSelect={this.changeWeather} value={this.state.weather}/>
+          <ModalDropdown options={optionsWeather}  dropdownStyle={{ height: 35 * optionsWeather.length, width:100 }}  onSelect={this.changeWeather} value={this.state.weather}/>
       </View>
       <TouchableOpacity style={styles.button} onPress={this.onPress.bind(this, mutation)}>
         <Text style={styles.buttonText}>Add</Text>
@@ -108,13 +108,12 @@ changeWeather= (idx, value) => {
 
 const styles = StyleSheet.create({
   container: {
-  flexGrow:1,
-    backgroundColor: '#EF6C00',
+    flexGrow:1,
     width:380,
   },
   button:{
     width:300,
-    backgroundColor:'#E65100',
+    backgroundColor:'#0091EA',
     borderRadius:10,
     marginHorizontal:30,
     padding:10,
@@ -125,7 +124,7 @@ const styles = StyleSheet.create({
   buttonText:{
     fontSize:16,
     fontWeight:'500',
-    color: '#ffffff',
+    
     textAlign:'center'
   },
  image:{

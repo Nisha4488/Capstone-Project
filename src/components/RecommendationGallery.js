@@ -144,7 +144,6 @@ return (
 const styles = StyleSheet.create({
 container:{
   flexGrow:1,
-  backgroundColor: '#EF6C00',
   width: 380
 },
 image:{

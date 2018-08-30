@@ -23,7 +23,7 @@ export default class AddOutfitButton extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor:'#EF6C00',
+    
     width: 400,
     height:40
   },

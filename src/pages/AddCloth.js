@@ -28,7 +28,7 @@ export default class AddCloth extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#EF6C00',
+    backgroundColor: '#40C4FF',
     alignItems: 'center',
     justifyContent: 'center',
   },

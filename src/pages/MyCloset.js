@@ -9,7 +9,7 @@ import ClosetGallery from '../components/ClosetGallery'
 export default class MyCloset extends React.Component {
     render() {
       return (
-        <ImageBackground style={{width: 380, height: '100%', position:'absolute',}} source={require('../images/background1.jpeg')}>
+        <ImageBackground style={{width: 380, height: '100%'}} source={require('../images/background1.jpeg')}>
         <Container style={styles.container}>
           <HeaderNew label="Add Clothes or Accessories"/>
           <AddClothButton/>
@@ -24,7 +24,7 @@ export default class MyCloset extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#EF6C00',
+    backgroundColor:'#40C4FF',
     alignItems: 'center',
     justifyContent: 'center',
   },

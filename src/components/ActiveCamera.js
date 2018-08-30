@@ -103,7 +103,9 @@ const styles = StyleSheet.create({
     flex: 1,
     width:380,
     marginVertical:30,
-    backgroundColor: '#EF6C00'
+    backgroundColor:'#40C4FF'
+
+
   },
   preview: {
     flex: 1,
@@ -112,7 +114,7 @@ const styles = StyleSheet.create({
   },
   capture: {
     flex: 0,
-    backgroundColor: '#fff',
+    backgroundColor: '#0091EA',
     borderRadius: 5,
     padding: 15,
     paddingHorizontal: 20,

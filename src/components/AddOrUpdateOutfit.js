@@ -80,7 +80,7 @@ updateOutfitClothIds = (outfitClothIds) => {
           <View style={styles.container}>
             <View><Text style={styles.content}>Select clothes or accessories to create outfit</Text></View>
             <OutfitSelector outfitClothIds={this.state.outfitClothIds} updateOutfitClothIds={this.updateOutfitClothIds}/>
-            <View style={{borderColor:'black',borderWidth:1,height:1,width:'100%'}}/>
+            <View style={{borderColor:'black',borderWidth:1,height:1,width:'100%', }}/>
             <View><Text style={styles.content}>Map outfit to suitable weather and occassion</Text></View>
             <View style={styles.checkbox}>
               <SelectMultiple
@@ -108,13 +108,12 @@ updateOutfitClothIds = (outfitClothIds) => {
 const styles = StyleSheet.create({
   container: {
     flexGrow: 1,
-    backgroundColor: '#EF6C00',
     width:380,
     marginVertical:15,
   },
   button:{
     width:300,
-    backgroundColor:'#E65100',
+    backgroundColor:'#0091EA',
     borderRadius:10,
     marginHorizontal:30,
     padding:10,
@@ -125,7 +124,7 @@ const styles = StyleSheet.create({
   buttonText:{
     fontSize:16,
     fontWeight:'500',
-    color: '#ffffff',
+
     textAlign:'center',
   },
   content:{
@@ -138,6 +137,7 @@ const styles = StyleSheet.create({
     flexDirection:'row',
     marginHorizontal:10,
     marginVertical:10,
+
   },
   image:{
     flex:1

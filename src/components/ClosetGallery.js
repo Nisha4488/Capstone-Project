@@ -70,8 +70,11 @@ export default class ClosetGallery extends React.Component {
             <Image source={{uri: cloth.image}} style={styles.image}/>
           <View style={styles.feature}>
             <View><Text style={styles.content}>{cloth.type}</Text></View>
-            <View><Text style={styles.content}> Color: {cloth.color}</Text></View>
-          </View>
+            <View style={{flexDirection:'row', justifyContent:'center'}}>
+              <Text style={{fontSize:18, fontWeight:'bold'}}> Color:</Text>
+              <Text style={styles.content}> {cloth.color} </Text>
+            </View>
+           </View>
             <Mutation mutation={DELETE_CLOTH}>
               {(mutation, { data }) => (
                 <TouchableOpacity onPress={this.onPress.bind(this, mutation, cloth._id, refetch)}>
@@ -93,7 +96,7 @@ export default class ClosetGallery extends React.Component {
 const styles = StyleSheet.create({
   container:{
       flexGrow:1,
-      backgroundColor: '#EF6C00',
+    
       width:380,
       marginVertical:15,
     },

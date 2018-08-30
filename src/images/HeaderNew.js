@@ -43,7 +43,7 @@ class HeaderNew extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor:'#0091EA',
+    backgroundColor:'#4E342E',
     width: 400,
   },
 })
