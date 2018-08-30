@@ -1,19 +1,23 @@
 import React from 'react';
-import { StyleSheet, Text, View} from 'react-native';
-
-
+import { StyleSheet } from 'react-native';
+import { Container } from 'native-base';
+import HeaderNew from '../components/HeaderNew'
+import FooterNew from '../components/FooterNew'
+import AddOutfitButton from '../components/AddOutfitButton'
+import OutfitGallery from '../components/OutfitGallery'
 
 export default class Outfit extends React.Component {
-  render() {
-    return (
-
-          <View style={styles.container}>
-
-          </View>
-
-    );
+    render() {
+      return (
+        <Container style={styles.container}>
+          <HeaderNew label="Create Your Outfit" />
+          <AddOutfitButton/>
+          <OutfitGallery/>
+          <FooterNew outfit={true}/>
+        </Container>
+      )
+    }
   }
-}
 
 const styles = StyleSheet.create({
   container: {
@@ -22,4 +26,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+})

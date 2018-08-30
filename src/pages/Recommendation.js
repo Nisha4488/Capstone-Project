@@ -1,15 +1,22 @@
 import React from 'react';
-import { StyleSheet, Text, View} from 'react-native';
+import { StyleSheet } from 'react-native';
+import { Container } from 'native-base';
+import HeaderNew from '../components/HeaderNew'
+import FooterNew from '../components/FooterNew'
+
+import RecommendationGallery from '../components/RecommendationGallery'
 
 export default class Recommendation extends React.Component {
-  render() {
-    return (
-         <View style={styles.container}>
-
-          </View>
-      );
+    render() {
+      return (
+        <Container style={styles.container}>
+          <HeaderNew label="Recommended Outfits" />
+          <RecommendationGallery/>
+          <FooterNew recommendation={true}/>
+        </Container>
+      )
+    }
   }
-}
 
 const styles = StyleSheet.create({
   container: {
@@ -18,4 +25,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+})

@@ -14,7 +14,6 @@ export default class Logo extends React.Component {
           source={require('../images/CapitalR.png')}
         />
       </View>
-
     );
   }
 }

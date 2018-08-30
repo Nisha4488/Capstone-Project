@@ -1,32 +1,48 @@
 import React from 'react';
-import { StyleSheet, Text, View} from 'react-native';
+import { StyleSheet, View} from 'react-native';
 import Login from './src/pages/Login';
 import Signup from './src/pages/Signup';
-import Closet from './src/pages/Closet'
 import Outfit from './src/pages/Outfit'
 import Recommendation from './src/pages/Recommendation'
-import ApolloClient from "apollo-boost";
+import MyCloset from './src/pages/MyCloset'
+import AddCloth from './src/pages/AddCloth'
+import AddOutfit from './src/pages/AddOutfit'
+import ActiveCamera from './src/components/ActiveCamera'
+import CaptureClothDetails from './src/pages/CaptureClothDetails'
+import { ApolloClient } from 'apollo-client'
+import { HttpLink } from 'apollo-link-http'
 import { ApolloProvider } from "react-apollo";
-import { NativeRouter, Route } from 'react-router-native'
+import { InMemoryCache } from 'apollo-cache-inmemory';
+import { MemoryRouter, Route } from 'react-router-native'
+import { createUploadLink } from 'apollo-upload-client';
+import { ApolloLink } from 'apollo-link';
+
+const uploadLink = createUploadLink({ uri: 'http://localhost:4000/' });
+const httpLink = new HttpLink({ uri: 'http://localhost:4000/' });
 
 const client = new ApolloClient({
-  uri: "https://localhost:4000/graphql"
+  link: ApolloLink.from([uploadLink, httpLink]),
+  cache: new InMemoryCache()
 });
 
 export default class App extends React.Component {
   render() {
     return (
       <ApolloProvider client={client}>
-        <NativeRouter>
+        <MemoryRouter >
           <View style={styles.container}>
-             <Route exact path="/" component={Login}/>
+             <Route exact path="/" component={Recommendation}/>
              <Route exact path="/login" component={Login}/>
              <Route exact path="/signup" component={Signup}/>
-             <Route exact path="/closet" component={Closet}/>
+             <Route exact path="/mycloset" component={MyCloset}/>
              <Route exact path="/outfit" component={Outfit}/>
              <Route exact path="/recommendation" component={Recommendation}/>
+             <Route exact path="/addcloth" component={AddCloth}/>
+             <Route exact path="/addOutfit" component={AddOutfit}/>
+             <Route exact path="/activecamera" component={ActiveCamera}/>
+             <Route exact path="/captureclothdetails" component={CaptureClothDetails}/>
           </View>
-        </NativeRouter>
+        </MemoryRouter>
       </ApolloProvider>
     );
   }
@@ -35,7 +51,6 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#EF6C00',
     alignItems: 'center',
     justifyContent: 'center',
   },

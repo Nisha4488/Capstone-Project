@@ -6,35 +6,35 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		aCYlQCaQrLJDjLlCBNQ0rlnVRHg=
+		BI6GHXozxzhmhjb22YWFUk9DBB0=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
-		PM04ohL+tpX8HYsmZndzNiahogM=
+		8CN5cCzwKl0+7ieNPMN/SawZQA8=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<data>
-		yVEF+IAFxPMrETjk62TYUsSZZoY=
+		Cwsl4MoHt6dTvyYXRy5C2x7Kd88=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<data>
-		zoD3Qa8gxI+Cn8eWli9Qhwj3hO0=
+		UU+vWjYvpE8lKAxV1lE2tUbIZA0=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<data>
-		AKh1zJiXarm2j6t4HiBBfLajCzk=
+		znuKt4UiTOJWwzrlgwaYX94o/a4=
 		</data>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<data>
-		THfQZgzkqYfCF+1a6Qiiyg4PBvk=
+		uPxPInP5h9+ERgCm8NCXpuuMEmg=
 		</data>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<data>
-		kcj25XRrQvP/qx+D4sgQlfuUVpI=
+		aHoR6mqqp0XWLqiw49+MRuFNQLk=
 		</data>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<data>
-		3CgG/k5wQrc9AU6lVjrD6VTdHUo=
+		2JoYDV6DTsckEmF+l3Ruo1S1Iqk=
 		</data>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
 		<dict>
@@ -47,11 +47,11 @@
 		</dict>
 		<key>Frameworks/XCTest.framework/version.plist</key>
 		<data>
-		4NEkyhJ9SrLJFKYhtHIBA6JBUFk=
+		DmGu9k7yBOLSfwtyNbn3zYir630=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DR1woDEZd6li/vOvh/rCxx9YfzM=
+		T6aW7Qw+GON+ZvymkBQAcpdnjkY=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -63,19 +63,19 @@
 		</data>
 		<key>PlugIns/DressRecommenderTests.xctest.dSYM/Contents/Resources/DWARF/DressRecommenderTests</key>
 		<data>
-		pnKvsND1BS1/fla2UtJpnejA7k4=
+		u8ZfiH8GRHREuAmLPjgMV422ZNc=
 		</data>
 		<key>PlugIns/DressRecommenderTests.xctest/DressRecommenderTests</key>
 		<data>
-		0nrSYiQZpru85HhCiGRp072KHAc=
+		N2/OEMh69QlK5hrTNskKsKVKlZg=
 		</data>
 		<key>PlugIns/DressRecommenderTests.xctest/Info.plist</key>
 		<data>
-		2PMnDZpsMr1fu+BK2VZI86Bo4eE=
+		JsIxWOWD2QArunpleMNl077DK/w=
 		</data>
 		<key>PlugIns/DressRecommenderTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		+ztkwwwvyPfnjZxGB2mmRuSeQv0=
+		LHVDOE2y7xhYuJ0of9GYJdJfBh8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -84,88 +84,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aCYlQCaQrLJDjLlCBNQ0rlnVRHg=
+			BI6GHXozxzhmhjb22YWFUk9DBB0=
 			</data>
 			<key>hash2</key>
 			<data>
-			QBfmE9R45uLWqhGepDvqU7HU4le06wy1NdbM8X7+BUg=
+			HKO+Zfji74mAcZAk5BlhCC3J7OAtp2BZFcDmHWU4PSY=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PM04ohL+tpX8HYsmZndzNiahogM=
+			8CN5cCzwKl0+7ieNPMN/SawZQA8=
 			</data>
 			<key>hash2</key>
 			<data>
-			skWCjbSCq4Do0CfB9M9H/oIKb8E6u811RNZ3C4RCgr8=
+			/R1Uy1RZ7ljX2V8ZHMhD4g8ieWHns9sj34YDK2McvfY=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yVEF+IAFxPMrETjk62TYUsSZZoY=
+			Cwsl4MoHt6dTvyYXRy5C2x7Kd88=
 			</data>
 			<key>hash2</key>
 			<data>
-			9CAwBh/gVNHbUVChmC57vhLKF/T8yHQUP8JfXzX4IrA=
+			IvG0kD54lYvEZzfjVmXtrtBdydTUy1uFZkZXUddfTzY=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zoD3Qa8gxI+Cn8eWli9Qhwj3hO0=
+			UU+vWjYvpE8lKAxV1lE2tUbIZA0=
 			</data>
 			<key>hash2</key>
 			<data>
-			NhL3FSmi+ubMNRzjMlAyyh6e9hsdJvc1F6dCLhXfQXo=
+			Ja3vToXIdN/BmsoAh4U4btDVl5lKbzndKf99CyxV6K4=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AKh1zJiXarm2j6t4HiBBfLajCzk=
+			znuKt4UiTOJWwzrlgwaYX94o/a4=
 			</data>
 			<key>hash2</key>
 			<data>
-			4ReRxHthIWbMqGoVvBSVgDBXj1VsdaAW3Ugx/lWXjnM=
+			napzzKlhgK6Qoqz8QO+9TkyuIsW5V+s6GmClALe2lT4=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			THfQZgzkqYfCF+1a6Qiiyg4PBvk=
+			uPxPInP5h9+ERgCm8NCXpuuMEmg=
 			</data>
 			<key>hash2</key>
 			<data>
-			rCvsePGwevZyhF3ZQyq8mLkMpOpOa2bePzPRXJ5zAdQ=
+			N77/gSJpnPT4ryPaR4IJ55aYyiiMCKjlq79qrCmGxU8=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kcj25XRrQvP/qx+D4sgQlfuUVpI=
+			aHoR6mqqp0XWLqiw49+MRuFNQLk=
 			</data>
 			<key>hash2</key>
 			<data>
-			9U8DN2XC2S+3i8hOw4JwkbJ5Umq/khonj/aFSTUu5dM=
+			unqlGEn5cq6B36PWWq/mAoeeub7L9yZ3vWK7mP9EscQ=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3CgG/k5wQrc9AU6lVjrD6VTdHUo=
+			2JoYDV6DTsckEmF+l3Ruo1S1Iqk=
 			</data>
 			<key>hash2</key>
 			<data>
-			3510nfxvxFwFf3lY60q05h559sn/b/FiXKLJJnn5cHw=
+			OXS9XX1oATlfFoPHZbc7OGt7HUXfXzNrCz28TkkBo/g=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
@@ -185,11 +185,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4NEkyhJ9SrLJFKYhtHIBA6JBUFk=
+			DmGu9k7yBOLSfwtyNbn3zYir630=
 			</data>
 			<key>hash2</key>
 			<data>
-			npuwVsQMT6N9VGE0YqH9a729MzPY+LnokIqdklNFhIs=
+			2hnwNPgdaewT28DbTqe0Gpaccdc2akBF8IjnGtISc58=
 			</data>
 		</dict>
 		<key>PlugIns/DressRecommenderTests.xctest.dSYM/Contents/Info.plist</key>
@@ -207,44 +207,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pnKvsND1BS1/fla2UtJpnejA7k4=
+			u8ZfiH8GRHREuAmLPjgMV422ZNc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z/HGR6g0Qw/xJ2RbL7E3FW5SlqQ9yGBz45+m/hKTtLw=
+			4LOP+Tk2I6qTpD+no3ch0bgQt/rESbjd1+Z5m6f07/U=
 			</data>
 		</dict>
 		<key>PlugIns/DressRecommenderTests.xctest/DressRecommenderTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0nrSYiQZpru85HhCiGRp072KHAc=
+			N2/OEMh69QlK5hrTNskKsKVKlZg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Etawn/BJ7caDGlzhhgf0/sA5JBd3cYuU7xUkGn1hV/0=
+			ENpFPp0vXJNtuAfUNROvNvV6h0EV1qsxJtsSo9QEXuw=
 			</data>
 		</dict>
 		<key>PlugIns/DressRecommenderTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2PMnDZpsMr1fu+BK2VZI86Bo4eE=
+			JsIxWOWD2QArunpleMNl077DK/w=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ja2I2wGrr0+/4l+o1lDYAKsUuKAJrzaqM+ULZDihpL0=
+			1H4yTsoT4gL9XC/5GQbveFlg6ZpLEU8n0yNajRFdC+o=
 			</data>
 		</dict>
 		<key>PlugIns/DressRecommenderTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+ztkwwwvyPfnjZxGB2mmRuSeQv0=
+			LHVDOE2y7xhYuJ0of9GYJdJfBh8=
 			</data>
 			<key>hash2</key>
 			<data>
-			bx1q5iNQKNtiNSBpacLzZocBLrc0j4zPWaNHFiKPhjQ=
+			u0kYwaGIJ3v3d872/aluYVak6pL99cC67Hrase7uo7w=
 			</data>
 		</dict>
 	</dict>
