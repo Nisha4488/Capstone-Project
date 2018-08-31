@@ -91,7 +91,7 @@ async onPress(mutation){
         <View style={styles.signupTextCont}>
           <Text style={styles.signupText}> {"Don't have an account yet?"} </Text>
           <Link to= "/signup">
-             <Text style={{   fontSize:18, fontWeight:'500' }}> Signup </Text>
+             <Text style={{   fontSize:18, fontWeight:'bold' }}> Signup </Text>
           </Link>
         </View>
       </View>
@@ -126,7 +126,7 @@ button:{
 },
 buttonText:{
   fontSize:16,
-  fontWeight:'500',
+  fontWeight:'bold',
   textAlign:'center'
 },
 signupTextCont:{
@@ -138,5 +138,6 @@ signupTextCont:{
 },
 signupText:{
   fontSize:16,
+
   },
 });

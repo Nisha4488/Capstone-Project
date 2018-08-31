@@ -91,7 +91,7 @@ render() {
        <View style={styles.signupTextCont}>
             <Text style={styles.signupText}> Already have an account? </Text>
             <Link to= "/">
-              <Text style={{   fontWeight: '500', fontSize:18, fontWeight:'500'  }}> Sign in </Text>
+              <Text style={{ fontWeight: 'bold', fontSize:18, }}> Sign in </Text>
             </Link>
         </View>
       </View>
@@ -126,7 +126,7 @@ button:{
 },
 buttonText:{
   fontSize:16,
-  fontWeight:'500',
+  fontWeight:'bold',
   textAlign:'center'
 },
 signupTextCont:{

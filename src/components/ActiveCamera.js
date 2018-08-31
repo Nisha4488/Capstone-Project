@@ -60,7 +60,7 @@ export default class ActiveCamera extends React.Component {
             />
           <View style={{flex: 0, flexDirection: 'row', justifyContent: 'center',}}>
           <TouchableOpacity onPress={this.takePicture.bind(this, mutation)} style = {styles.capture}>
-            <Text style={{fontSize: 14}}> SNAP </Text>
+            <Text style={{fontSize: 14, textAlign:'center', fontWeight:'bold',}}> SNAP </Text>
           </TouchableOpacity>
           </View>
        </View>
@@ -110,13 +110,11 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
     alignItems: 'center'
   },
-  capture: {
-    flex: 0,
-    backgroundColor: '#0091EA',
-    borderRadius: 5,
-    padding: 15,
-    paddingHorizontal: 10,
-    alignSelf: 'center',
-    margin: 20
-  }
+  capture:{
+    width:150,
+    backgroundColor:'#0091EA',
+    borderRadius:25,
+    marginVertical:10,
+    padding:10
+  },
 });

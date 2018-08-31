@@ -31,7 +31,7 @@ export default class App extends React.Component {
       <ApolloProvider client={client}>
         <MemoryRouter >
           <View style={styles.container}>
-             <Route exact path="/" component={MyCloset}/>
+             <Route exact path="/" component={Login}/>
              <Route exact path="/login" component={Login}/>
              <Route exact path="/signup" component={Signup}/>
              <Route exact path="/mycloset" component={MyCloset}/>
