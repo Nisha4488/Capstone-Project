@@ -116,7 +116,7 @@ return (
              }
             </View>
             <View style={styles.wornDate}>
-              <View><Text  style={styles.content}>For {outfit.occassion.join(', ')}</Text></View>
+              <View><Text  style={styles.content}>For {[...outfit.occassion].sort().join(', ')}</Text></View>
                 {
                   outfit.lastWornDate && <View><Text style={styles.content}>Last time worn on {monthNames[new Date(outfit.lastWornDate).getMonth()]} {new Date(outfit.lastWornDate).getDay()}</Text></View>
                  }

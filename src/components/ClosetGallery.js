@@ -96,7 +96,6 @@ export default class ClosetGallery extends React.Component {
 const styles = StyleSheet.create({
   container:{
       flexGrow:1,
-    
       width:380,
       marginVertical:15,
     },

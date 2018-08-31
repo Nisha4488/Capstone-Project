@@ -85,8 +85,8 @@ export default class OutfitGallery extends React.Component {
           </View>
           <View style={styles.feature}>
              <View style={{flexDirection:'row'}}>
-                <Text  style={{fontSize:18, fontWeight:'bold'}}>Occassion:</Text>
-                <Text  style={styles.content}> {outfit.occassion.join(', ')} </Text>
+                <Text  style={{fontSize:18, fontWeight:'bold'}}>Occasion:</Text>
+                <Text  style={styles.content}> {[...outfit.occassion].sort().join(', ')} </Text>
              </View>
              <TouchableOpacity>
              <Link to={{

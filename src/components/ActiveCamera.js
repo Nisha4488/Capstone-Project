@@ -102,11 +102,9 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     width:380,
-    marginVertical:30,
+    marginTop:20,
     backgroundColor:'#40C4FF'
-
-
-  },
+ },
   preview: {
     flex: 1,
     justifyContent: 'flex-end',
@@ -117,7 +115,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#0091EA',
     borderRadius: 5,
     padding: 15,
-    paddingHorizontal: 20,
+    paddingHorizontal: 10,
     alignSelf: 'center',
     margin: 20
   }

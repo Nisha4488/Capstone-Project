@@ -23,7 +23,6 @@ export default class AddClothButton extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    
     width: 400,
     height:40
   },

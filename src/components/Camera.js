@@ -27,6 +27,7 @@ render() {
 const styles = StyleSheet.create({
 container: {
   width: 400,
-  marginVertical:-10
+  marginVertical:-10,
+  backgroundColor:'#40C4FF'
   },
 })
